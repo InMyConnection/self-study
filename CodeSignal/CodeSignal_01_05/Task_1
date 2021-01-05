@@ -1,0 +1,6 @@
+Given the string, check if it is a palindrome.
+
+bool checkPalindrome(string inputString) {
+char[] input = inputString.ToCharArray();
+return input.SequenceEqual(input.Reverse());
+}
