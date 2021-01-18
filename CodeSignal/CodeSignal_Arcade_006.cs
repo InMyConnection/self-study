@@ -8,6 +8,5 @@ makeArrayConsecutive2(statues) = 3.
 Ratiorg needs statues of sizes 4, 5 and 7.*/
 
 int makeArrayConsecutive2(int[] statues) {
-List<int> stat = statues.ToList();
-return stat.Max() - stat.Min() - stat.Count() + 1;
+return statues.Max() - statues.Min() - statues.Length + 1;
 }
