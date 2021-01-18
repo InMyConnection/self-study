@@ -12,7 +12,5 @@ For address = "fully-qualified-domain@codesignal.com", the output should be
 findEmailDomain(address) = "codesignal.com".*/
 
 string findEmailDomain(string address) {
-Regex regex = new Regex(@"@(\w|-)*\.\w*$");
-MatchCollection matches = regex.Matches(address);
-return matches[0].Value.TrimStart('@');
+return address.Substring(address.LastIndexOf('@') + 1);
 }
