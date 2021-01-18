@@ -5,10 +5,8 @@ Given matrix, a rectangular matrix of integers, where each value represents the 
 int matrixElementsSum(int[][] matrix) {
 int sum = 0;
 for (int j = 0; j < matrix[0].Length; j++)
-for (int i = 0; i < matrix.Length; i++){
-    if (matrix[i][j] != 0)
+for (int i = 0; i < matrix.Length && matrix[i][j] != 0; i++){
     sum += matrix[i][j];
-    else break;
 }
 return sum;
 }
