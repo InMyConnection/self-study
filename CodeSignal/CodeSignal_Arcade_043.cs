@@ -17,14 +17,11 @@ For inputString = "bbc", the output should be isBeautifulString(inputString) = f
 Although there are more bs than cs, this string is not beautiful because there are no as, so therefore there are more bs than as.*/
 
 bool isBeautifulString(string inputString) {
-IEnumerable<char> sortedString = inputString.OrderBy(c => c);
-List<char> differentChars = sortedString.Distinct().ToList();
-List<int> countOfDifferentChars = new List<int>();
-foreach(char letter in differentChars)
-    countOfDifferentChars.Add(sortedString.Count(c => c == letter));
-bool moreThanPrevios = countOfDifferentChars.SequenceEqual(countOfDifferentChars.OrderByDescending(i => i));
-bool alphabetOrder = true;
-for(int i = 0; i < differentChars.Count() - 1 && (char)(differentChars[i] + 1) != differentChars[i + 1]; i++)
-    alphabetOrder = false;
-return differentChars[0] == 'a' && alphabetOrder && moreThanPrevios;
+int[] count = new int[26];
+foreach (char c in inputString)
+count[c - 97]++;
+for (int i = 0; i < 25; i++)
+if (count[i] < count[i + 1])
+return false;
+return true;
 }
