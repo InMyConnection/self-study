@@ -8,5 +8,5 @@ For symbol = '-', the output should be
 isDigit(symbol) = false.*/
 
 bool isDigit(char symbol) {
-return Int32.TryParse(symbol.ToString(), out int result);
+return symbol >= '0' && symbol <= '9';
 }
