@@ -16,16 +16,8 @@ The last candidate can't win no matter what (for the same reason as the first ca
 Thus, only 2 candidates can win (the second and the third), which is the answer.*/
 
 int electionsWinners(int[] votes, int k) {
-int result = 0;
-int count = 0;
 int max = votes.Max();
-foreach (int i in votes){
-if (i + k > max)
-result++;
-if (i == max)
-count++;
-} 
-if (k == 0 && count == 1)
-return count;
-return result;
+if (k == 0 && votes.Count(v => v == max) == 1)
+return 1;
+return votes.Count(v => v + k > max);
 }
