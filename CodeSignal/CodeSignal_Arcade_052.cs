@@ -6,7 +6,5 @@ For text = "Ready, steady, go!", the output should be
 longestWord(text) = "steady".*/
 
 string longestWord(string text) {
-Regex regex = new Regex(@"[A-Za-z]*");
-MatchCollection matches = regex.Matches(text);
-return matches.Single(m => m.Length == matches.Max(s => s.Length)).ToString();
+return Regex.Split(text, @"[^A-Za-z]+").OrderByDescending(s => s.Length).First();
 }
