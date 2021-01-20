@@ -8,5 +8,5 @@ For inputString = "2 apples, 12 oranges", the output should be
 sumUpNumbers(inputString) = 14.*/
 
 int sumUpNumbers(string inputString) {
-return Regex.Split(inputString, @"[^\d]+").Select(s => s == ""? 0 : Int32.Parse(s)).Sum();
+return Regex.Matches(inputString, @"\d+").Select(s => Int32.Parse(s.ToString())).Sum();
 }
