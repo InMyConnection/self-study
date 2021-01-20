@@ -10,5 +10,5 @@ For time = "02:76", the output should be
 validTime(time) = false.*/
 
 bool validTime(string time) {
-return Regex.IsMatch(time, @"^(2[0-3]|(1|0)\d):[0-5]\d$");
+return TimeSpan.TryParse(time, out TimeSpan t);
 }
