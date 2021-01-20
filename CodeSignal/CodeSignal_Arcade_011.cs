@@ -11,11 +11,6 @@ isLucky(n) = false.*/
 
 bool isLucky(int n) {
 string s = n.ToString();
-int res1 = 0;
-int res2 = 0;
-for (int i = 0; i < s.Length / 2; i++){
-    res1 += (int)s[i];
-    res2 += (int)s[s.Length - 1 - i];
-}
-return res1 == res2;
+int length = s.Length / 2;
+return s.Substring(0, length).Sum(c => c) == s.Substring(length).Sum(c => c);
 }
