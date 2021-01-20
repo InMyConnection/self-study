@@ -15,16 +15,8 @@ reverseInParentheses(inputString) = "foobazrabblim".
 Because "foo(bar(baz))blim" becomes "foo(barzab)blim" and then "foobazrabblim".*/
 
 string reverseInParentheses(string inputString) {
-            Regex regex = new Regex(@"\(\w*\)");
-            MatchCollection matches = regex.Matches(inputString);
-            for (int i = 0; i < matches.Count; i++)
-            {
-                string match = matches[i].ToString();
-                char[] charToTrim = { '(', ')' };
-                string target = match.Trim(charToTrim);
-                target = String.Join(String.Empty, target.Reverse());
-                inputString = inputString.Replace(match, target);
-                inputString = reverseInParentheses(inputString);
-            }
-            return inputString;
+while (inputString.Contains('('))
+inputString = Regex.Replace(inputString, @"\(\w*\)", match =>
+ { return String.Concat(match.Value.Trim(new [] { '(', ')' }).Reverse());});
+return inputString;
 }
