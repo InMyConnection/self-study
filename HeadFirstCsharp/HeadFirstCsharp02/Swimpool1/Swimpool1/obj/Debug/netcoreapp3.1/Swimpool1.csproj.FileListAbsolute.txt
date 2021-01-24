@@ -1,0 +1,12 @@
+C:\Users\director\source\repos\Swimpool1\Swimpool1\bin\Debug\netcoreapp3.1\Swimpool1.exe
+C:\Users\director\source\repos\Swimpool1\Swimpool1\bin\Debug\netcoreapp3.1\Swimpool1.deps.json
+C:\Users\director\source\repos\Swimpool1\Swimpool1\bin\Debug\netcoreapp3.1\Swimpool1.runtimeconfig.json
+C:\Users\director\source\repos\Swimpool1\Swimpool1\bin\Debug\netcoreapp3.1\Swimpool1.runtimeconfig.dev.json
+C:\Users\director\source\repos\Swimpool1\Swimpool1\bin\Debug\netcoreapp3.1\Swimpool1.dll
+C:\Users\director\source\repos\Swimpool1\Swimpool1\bin\Debug\netcoreapp3.1\Swimpool1.pdb
+C:\Users\director\source\repos\Swimpool1\Swimpool1\obj\Debug\netcoreapp3.1\Swimpool1.AssemblyInfoInputs.cache
+C:\Users\director\source\repos\Swimpool1\Swimpool1\obj\Debug\netcoreapp3.1\Swimpool1.AssemblyInfo.cs
+C:\Users\director\source\repos\Swimpool1\Swimpool1\obj\Debug\netcoreapp3.1\Swimpool1.csproj.CoreCompileInputs.cache
+C:\Users\director\source\repos\Swimpool1\Swimpool1\obj\Debug\netcoreapp3.1\Swimpool1.dll
+C:\Users\director\source\repos\Swimpool1\Swimpool1\obj\Debug\netcoreapp3.1\Swimpool1.pdb
+C:\Users\director\source\repos\Swimpool1\Swimpool1\obj\Debug\netcoreapp3.1\Swimpool1.genruntimeconfig.cache
