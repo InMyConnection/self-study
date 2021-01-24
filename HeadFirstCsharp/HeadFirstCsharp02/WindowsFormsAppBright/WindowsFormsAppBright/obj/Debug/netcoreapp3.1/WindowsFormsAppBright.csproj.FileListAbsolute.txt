@@ -1,0 +1,14 @@
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\bin\Debug\netcoreapp3.1\WindowsFormsAppBright.exe
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\bin\Debug\netcoreapp3.1\WindowsFormsAppBright.deps.json
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\bin\Debug\netcoreapp3.1\WindowsFormsAppBright.runtimeconfig.json
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\bin\Debug\netcoreapp3.1\WindowsFormsAppBright.runtimeconfig.dev.json
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\bin\Debug\netcoreapp3.1\WindowsFormsAppBright.dll
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\bin\Debug\netcoreapp3.1\WindowsFormsAppBright.pdb
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.Form1.resources
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.csproj.GenerateResource.cache
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.AssemblyInfoInputs.cache
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.AssemblyInfo.cs
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.csproj.CoreCompileInputs.cache
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.dll
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.pdb
+C:\Users\director\source\repos\WindowsFormsAppBright\WindowsFormsAppBright\obj\Debug\netcoreapp3.1\WindowsFormsAppBright.genruntimeconfig.cache
