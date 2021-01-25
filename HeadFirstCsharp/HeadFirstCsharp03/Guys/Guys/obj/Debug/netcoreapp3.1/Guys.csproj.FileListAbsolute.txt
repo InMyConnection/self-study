@@ -1,0 +1,14 @@
+C:\Users\director\source\repos\Guys\Guys\bin\Debug\netcoreapp3.1\Guys.exe
+C:\Users\director\source\repos\Guys\Guys\bin\Debug\netcoreapp3.1\Guys.deps.json
+C:\Users\director\source\repos\Guys\Guys\bin\Debug\netcoreapp3.1\Guys.runtimeconfig.json
+C:\Users\director\source\repos\Guys\Guys\bin\Debug\netcoreapp3.1\Guys.runtimeconfig.dev.json
+C:\Users\director\source\repos\Guys\Guys\bin\Debug\netcoreapp3.1\Guys.dll
+C:\Users\director\source\repos\Guys\Guys\bin\Debug\netcoreapp3.1\Guys.pdb
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.Form1.resources
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.csproj.GenerateResource.cache
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.AssemblyInfoInputs.cache
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.AssemblyInfo.cs
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.csproj.CoreCompileInputs.cache
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.dll
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.pdb
+C:\Users\director\source\repos\Guys\Guys\obj\Debug\netcoreapp3.1\Guys.genruntimeconfig.cache
